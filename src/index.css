@@ -116,6 +116,9 @@ header .navbar .container-fluid #clock{
 form .form-floating #pesan{
     height:150px;
 }
+#todolist{
+  height:750px;
+}
 
 .converter {
     background-color: #fff;

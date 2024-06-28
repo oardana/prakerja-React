@@ -20,7 +20,7 @@ import "./index.css";
 import App from "./App";
 import Content from "./router/content";
 import Contact from "./router/Contact";
-import Carousel from "./router/Carousel";
+import TodoList from "./router/todolist";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element :<Contact/>
+      },
+      {
+        path:"/daftartugas",
+        element:<TodoList/>
       }
     ]
   },
