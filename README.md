@@ -15,3 +15,12 @@ Currently, two official plugins are available:
 - state dengan menggunakan React Hook useState.
 - Terdapat juga fitur menampilkan data serta jumlah total yang dihapus dibatalkan dan selesai.
 - serta menambahkan useEffect ketika baru dibuka akan menampilkan "Selamat datang" dan ketika ditutup akan merefresh dan menutup.
+
+Proses Deployment ke Vercel 
+- Membuat Akun di Vercel.com
+- Menyiapkan Repository (saya Menggunakan Github)
+- Lalu Menghubungkan dengan Vercel
+- Lalu Configurasi deployment dengan branch di github saya Menggunakan Branch Master
+- Lalu atur domain yang sesuai
+- Kemudian push dan commit di git untuk memicu proses otomatis di vercel
+- Selesai
